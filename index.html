@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="quiz.css"/>
+        <script src = "quiz.js"></script>
+    </head>
+   
+    <body>
+        <a href="index.html" id ="back">Retour</a>
+        <h1>Jouons à un jeu</h1>
+        <form id = "quiz" name = "quiz">
+        <fieldset id = "Trivia">
+        <legend>Quiz sur les planètes</legend>
+            <p>Quelle est la planète la plus proche du soleil ?</p>
+            <input type = "radio" id = "mc" name = "q1" value ="Jupiter">Jupiter<br> 
+            <input type = "radio" id = "mc" name = "q1" value ="Saturn">Saturne<br> 
+            <input type = "radio" id = "mc" name = "q1" value ="Neptune">Neptune<br> 
+            <input type = "radio" id = "mc" name = "q1" value ="Earth">Terre<br> 
+            <input type = "radio" id = "mc" name = "q1" value ="Uranus">Uranus<br> 
+            <input type = "radio" id = "mc" name = "q1" value ="Mercury">Mercure<br> 
+            <input type = "radio" id = "mc" name = "q1" value ="Venus">Vénus<br> 
+            <input type = "radio" id = "mc" name = "q1" value ="Mars">Mars<br> 
+
+            <p>Quelle est la planète la plus éloignée du soleil ?</p>
+            <input type = "radio" id = "mc" name = "q2" value ="Jupiter">Jupiter<br> 
+            <input type = "radio" id = "mc" name = "q2" value ="Saturn">Saturne<br> 
+            <input type = "radio" id = "mc" name = "q2" value ="Neptune">Neptune<br> 
+            <input type = "radio" id = "mc" name = "q2" value ="Earth">Terre<br> 
+            <input type = "radio" id = "mc" name = "q2" value ="Uranus">Uranus<br> 
+            <input type = "radio" id = "mc" name = "q2" value ="Mercury">Mercure<br> 
+            <input type = "radio" id = "mc" name = "q2" value ="Venus">Vénus<br> 
+            <input type = "radio" id = "mc" name = "q2" value ="Mars">Mars<br>
+            
+            <p>Quelle est la planète la plus lourde ?</p>
+            <input type = "radio" id = "mc" name = "q3" value ="Jupiter">Jupiter<br> 
+            <input type = "radio" id = "mc" name = "q3" value ="Saturn">Saturne<br> 
+            <input type = "radio" id = "mc" name = "q3" value ="Neptune">Neptune<br> 
+            <input type = "radio" id = "mc" name = "q3" value ="Earth">Terre<br> 
+            <input type = "radio" id = "mc" name = "q3" value ="Uranus">Uranus<br> 
+            <input type = "radio" id = "mc" name = "q3" value ="Mercury">Mercure<br> 
+            <input type = "radio" id = "mc" name = "q3" value ="Venus">Vénus<br> 
+            <input type = "radio" id = "mc" name = "q3" value ="Mars">Mars<br>
+            
+            <p>Quelle est la planète la plus chaude ?</p>
+            <input type = "radio" id = "mc" name = "q4" value ="Jupiter">Jupiter<br> 
+            <input type = "radio" id = "mc" name = "q4" value ="Saturn">Saturne<br> 
+            <input type = "radio" id = "mc" name = "q4" value ="Neptune">Neptune<br> 
+            <input type = "radio" id = "mc" name = "q4" value ="Earth">Terre<br> 
+            <input type = "radio" id = "mc" name = "q4" value ="Uranus">Uranus<br> 
+            <input type = "radio" id = "mc" name = "q4" value ="Mercury">Mercure<br> 
+            <input type = "radio" id = "mc" name = "q4" value ="Venus">Vénus<br> 
+            <input type = "radio" id = "mc" name = "q4" value ="Mars">Mars<br>
+
+            <p>Combien de lunes Uranus possède-t-elle ? <input type ="text" id="textbox" name = "q5"></p>
+
+            <p>La Terre se trouve à <input type = "text" id = "textbox" name = "q6"> millions de kilomètres du soleil</p>
+
+            <p>La masse de Jupiter équivaut à environ <input type = "text" id = "textbox" name = "q7"> Terres</p>
+
+            <p>Quel est le nom de la planète qui a été rétrogradée au rang de planète naine ? <input type = "text" id = "textbox" name = "q8"></p>
+            
+            <input id = "button" type = "button" value = "obtenir les résultats" onclick = "check();">
+        </fieldset>     
+        </form>
+        <div id= "submitted">
+            <p id = "no_correct">hii</p>
+        </div>
+    </body>
+</html>

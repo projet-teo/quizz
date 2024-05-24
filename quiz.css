@@ -1,0 +1,65 @@
+legend
+{
+    text-align: center;
+    color: antiquewhite;
+}
+
+#trivia
+{
+    background-color: aliceblue;
+}
+#mc 
+{
+    display: inline;
+}
+
+#quiz
+{
+    text-align: center;
+    background-image: url("space.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 150px;
+    background-clip: content-box;
+    color: antiquewhite; 
+    padding: 0px 150px 0px;
+}
+#button
+{
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    background-image: url("stars2.jpg"); 
+    color: antiquewhite;
+    padding: 5px;
+    font-size: 15px;
+    transition-duration: .5s;
+}
+h1
+{
+    color: antiquewhite;
+    text-align: center;
+}
+body
+{
+    background-color: black;
+}
+#back
+{
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    color: antiquewhite;
+    padding: 15px;
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+}
+#submitted
+{
+    visibility: hidden;
+}
+p
+{
+    color: antiquewhite;
+    text-align: center;
+}
